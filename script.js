@@ -116,7 +116,7 @@ const questionData = {
       answer: 0
     },
     {
-      question: "Que veut dire le tag <br> en HTML ?",
+      question: "Que veut dire la balise *br* en HTML ?",
       options: ["Balise de titre", "Saut de ligne", "Lien", "Tableau"],
       answer: 1
     },
@@ -146,7 +146,7 @@ const questionData = {
       answer: 3
     },
     {
-      question: "Quel est le rôle de la balise <form> ?",
+      question: "Quel est le rôle de la balise *form* ?",
       options: ["Créer un tableau", "Créer une image", "Créer une liste", "Créer un formulaire"],
       answer: 3
     },
@@ -166,7 +166,7 @@ const questionData = {
       answer: 1
     },
     {
-      question: "Que signifie le tag <ul> ?",
+      question: "Que signifie le tag *ul* ?",
       options: ["Liste non ordonnée", "Souligner", "Lien", "Titre"],
       answer: 0
     },
@@ -211,7 +211,7 @@ const questionData = {
       answer: 3
     },
     {
-      question: "Que signifie le tag <ol> ?",
+      question: "Que signifie le tag *ol* ?",
       options: ["Onglet", "Lien", "Liste ordonnée", "Option"],
       answer: 2
     },
@@ -278,7 +278,7 @@ const questionData = {
       answer: 1
     },
     {
-      question: "À quoi sert la balise <meta charset='UTF-8'> ?",
+      question: "À quoi sert la balise *meta charset='UTF-8'* ?",
       options: ["Définir le titre de la page", "Définir l'encodage des caractères", "Définir la langue de la page", "Définir le style de la page"],
       answer: 1
     },
@@ -313,7 +313,7 @@ const questionData = {
       answer: 1
     },
     {
-      question: "Quel est le rôle de l'attribut 'alt' dans la balise <img> ?",
+      question: "Quel est le rôle de l'attribut 'alt' dans la balise *img* ?",
       options: ["Définir l'image", "Définir un texte alternatif", "Changer la taille", "Changer la couleur"],
       answer: 1
     },
@@ -378,7 +378,7 @@ const questionData = {
       answer: 1
     },
     {
-      question: "Quel est le rôle de la balise <header> ?",
+      question: "Quel est le rôle de la balise *header* ?",
       options: ["Définir l'en-tête d'une page", "Créer un menu", "Afficher une image", "Créer un tableau"],
       answer: 0
     },
@@ -433,7 +433,7 @@ const questionData = {
       answer: 0
     },
     {
-      question: "À quoi sert la balise <nav> ?",
+      question: "À quoi sert la balise *nav* ?",
       options: ["Définir la navigation", "Créer un formulaire", "Afficher une image", "Créer un tableau"],
       answer: 0
     },
@@ -508,7 +508,7 @@ const questionData = {
       answer: 0
     },
     {
-      question: "À quoi sert la balise <section> ?",
+      question: "À quoi sert la balise *section*?",
       options: ["Créer un formulaire", "Structurer le contenu en sections", "Afficher une image", "Créer un tableau"],
       answer: 1
     }
@@ -585,7 +585,7 @@ const questionData = {
       answer: 3
     },
     {
-      question: "À quoi sert la balise <template> en HTML ?",
+      question: "À quoi sert la balise *template* en HTML ?",
       options: ["Créer une image", "Afficher une vidéo", "Définir du contenu à réutiliser via JS", "Créer un formulaire"],
       answer: 2
     },
@@ -605,7 +605,7 @@ const questionData = {
       answer: 2
     },
     {
-      question: "À quoi sert l'attribut 'defer' dans une balise <script> ?",
+      question: "À quoi sert l'attribut 'defer' dans une balise *script* ?",
       options: ["Exécuter le script immédiatement", "Ajouter du CSS", "Créer une image", "Différer l'exécution du script après le chargement du HTML"],
       answer: 3
     },
@@ -635,7 +635,7 @@ const questionData = {
       answer: 0
     },
     {
-      question: "À quoi sert le tag <noscript> ?",
+      question: "À quoi sert le tag *noscript* ?",
       options: ["Afficher un contenu si JS est désactivé", "Afficher un titre", "Créer une image", "Créer un tableau"],
       answer: 0
     },
@@ -690,7 +690,7 @@ const questionData = {
       answer: 0
     },
     {
-      question: "À quoi sert la balise <progress> ?",
+      question: "À quoi sert la balise *progress* ?",
       options: ["Afficher une image", "Créer un bouton", "Afficher une barre de progression", "Mettre en gras"],
       answer: 2
     },
@@ -703,7 +703,7 @@ const questionData = {
       question: "Quel est le rôle du fichier manifest.json dans une PWA ?",
       options: ["Créer des images", "Afficher une vidéo", "Créer un tableau", "Définir les paramètres de l'application"],
       answer: 3
-    },
+    },   
     {
       question: "Que fait la méthode JS 'find()' ?",
       options: ["Retourne le premier élément du tableau qui satisfait une condition", "Ajoute un élément", "Trie le tableau", "Supprime un élément"],
@@ -765,7 +765,7 @@ const questionData = {
 // Variables globales
 let currentLevel = null;
 let currentQuestions = [];
-let currentSetIndex = 0;
+let currentSetIndex = 0; 
 let score = 0;
 let answeredQuestions = [];
 const QUESTIONSPERSET = 10;
@@ -926,3 +926,6 @@ function showEndOfLevel() {
 document.addEventListener('DOMContentLoaded', () => {
   console.log("Quiz prêt à fonctionner !");
 });
+
+
+
